@@ -1,24 +1,31 @@
-# Creative Studio Portfolio — GitHub Pages
+# Creative Portfolio — GitHub Pages
 
-Template portfolio terinspirasi oleh pendekatan editorial/minimal dari website Studio Loop, tetapi dibuat sebagai desain baru dan tidak menyalin aset/kode situs asli.
+Template inspired by the editorial/interactive approach of Studio Loop's public homepage, with original code, copy and placeholder assets. It is NOT a copy of Studio Loop's source code or copyrighted images.
 
-## Struktur
-- `index.html` — halaman utama
-- `style.css` — desain/responsive
-- `script.js` — interaksi
-- `assets/images/` — tempat gambar portfolio
-- `assets/videos/` — tempat video/showreel
+## Replace placeholders
+Hero:
+- `assets/images/hero.jpg`
 
-## Cara memakai
-1. Upload seluruh isi folder ke repository `username.github.io`.
-2. Masukkan gambar Anda ke `assets/images/` dengan nama:
-   - `project-01.jpg`
-   - `project-02.jpg`
-   - `project-03.jpg`
-   - `project-04.jpg`
-3. Masukkan video ke `assets/videos/showreel.mp4`.
-4. Edit judul, deskripsi, nama studio, email, dan link sosial di `index.html`.
-5. Aktifkan GitHub Pages dari Settings → Pages → Deploy from branch → `main` → `/root`.
+Work/service images:
+- `assets/images/services/01-video-social.jpg`
+- `02-design.jpg`
+- `03-3d-motion.jpg`
+- `04-ai-video.jpg`
+- `05-live-events.jpg`
 
-## Catatan
-Frame yang bertuliskan `DROP IMAGE` otomatis berubah menjadi gambar ketika file dengan nama yang sesuai sudah di-upload.
+Client image strip:
+- `assets/images/clients/client-01.jpg` through `client-10.jpg`
+
+Statement/footer:
+- `assets/images/footer/statement.jpg`
+- `footer-01.jpg` through `footer-05.jpg`
+
+## GitHub Pages
+Upload the complete contents into `username.github.io`, then:
+Settings → Pages → Deploy from a branch → main → / (root) → Save.
+
+## Optional video
+If you want a hero/showreel video, replace the hero `<img>` with a `<video>` element and put the MP4 inside `assets/videos/`.
+
+## Notes
+The motion recreates the same *type* of interaction: loader, floating hero media, scroll/parallax movement, horizontal marquee, hover/scroll reveals, responsive rearrangement and looping footer. Exact proprietary timing/source implementation is not reproduced.
