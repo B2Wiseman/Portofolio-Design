@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creative studio portfolio website">
+  <title>LOOP — Creative Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">LOOP<span>®</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CREATIVE STUDIO / INDONESIA → EVERYWHERE</p>
+        <h1>We make<br><em>ideas move.</em></h1>
+        <p class="hero-text">A multidisciplinary creative studio for visual identities, campaigns, motion, digital experiences and everything in between.</p>
+        <a class="round-link" href="#work">Explore work <span>↘</span></a>
+      </div>
+      <div class="hero-orb" aria-hidden="true"></div>
+    </section>
+
+    <section class="ticker" aria-label="Studio statement">
+      <div>DESIGN • MOTION • 3D • VIDEO • DIGITAL • AI • DESIGN • MOTION • 3D • VIDEO • DIGITAL • AI •</div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-head">
+        <p>(01)</p>
+        <h2>Selected<br><span>Work</span></h2>
+        <p class="section-note">A flexible gallery. Replace the frames below with your own campaign, branding, social media, 3D or UI designs.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project project-large">
+          <a class="media-frame ratio-wide" href="#">
+            <img src="assets/images/project-01.jpg" alt="Project 01" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+            <span>DROP IMAGE<br><small>project-01.jpg</small></span>
+          </a>
+          <div class="project-meta"><h3>Project One</h3><p>Brand Campaign / 2026</p></div>
+        </article>
+
+        <article class="project project-small">
+          <a class="media-frame ratio-square" href="#">
+            <img src="assets/images/project-02.jpg" alt="Project 02" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+            <span>DROP IMAGE<br><small>project-02.jpg</small></span>
+          </a>
+          <div class="project-meta"><h3>Project Two</h3><p>Visual Identity</p></div>
+        </article>
+
+        <article class="project project-small">
+          <a class="media-frame ratio-portrait" href="#">
+            <img src="assets/images/project-03.jpg" alt="Project 03" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+            <span>DROP IMAGE<br><small>project-03.jpg</small></span>
+          </a>
+          <div class="project-meta"><h3>Project Three</h3><p>Social Content</p></div>
+        </article>
+
+        <article class="project project-wide">
+          <a class="media-frame ratio-wide" href="#">
+            <img src="assets/images/project-04.jpg" alt="Project 04" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+            <span>DROP IMAGE<br><small>project-04.jpg</small></span>
+          </a>
+          <div class="project-meta"><h3>Project Four</h3><p>Motion & 3D</p></div>
+        </article>
+
+        <article class="project project-video">
+          <a class="media-frame ratio-wide video-frame" href="#">
+            <video muted loop playsinline preload="metadata">
+              <source src="assets/videos/showreel.mp4" type="video/mp4">
+            </video>
+            <span>DROP VIDEO<br><small>showreel.mp4</small></span>
+            <b>PLAY ↗</b>
+          </a>
+          <div class="project-meta"><h3>Showreel</h3><p>Video / Motion / 3D</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="section-head">
+        <p>(02)</p>
+        <h2>What we<br><span>do</span></h2>
+      </div>
+      <div class="service-list">
+        <div><span>01</span><h3>Design</h3><p>Brand systems, campaigns, art direction and visual communication.</p></div>
+        <div><span>02</span><h3>Motion</h3><p>Social content, motion graphics, animation and visual storytelling.</p></div>
+        <div><span>03</span><h3>3D</h3><p>Product visualization, 3D scenes, CGI and experimental imagery.</p></div>
+        <div><span>04</span><h3>Digital</h3><p>Websites, interactive experiences and digital-first creative systems.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="manifesto section">
+      <p class="eyebrow">[ WHO WE ARE ]</p>
+      <h2>Creative work<br>with a pulse.</h2>
+      <p class="manifesto-copy">We combine design, technology and culture to build work that feels relevant, memorable and alive. Replace this paragraph with your own studio story.</p>
+    </section>
+
+    <section class="client-strip">
+      <p>SELECTED CLIENTS / COLLABORATORS</p>
+      <div class="client-row">
+        <span>BRAND A</span><span>BRAND B</span><span>BRAND C</span><span>BRAND D</span><span>BRAND E</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">[ LET'S MAKE SOMETHING ]</p>
+      <h2>Have a project?<br><em>Let's talk.</em></h2>
+      <a class="email" href="mailto:hello@yourstudio.com">hello@yourstudio.com ↗</a>
+      <div class="contact-bottom">
+        <p>Jakarta / Madiun / Everywhere</p>
+        <p>Instagram · Behance · LinkedIn</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>LOOP®</span><span>© 2026</span><span>stories / systems / internet</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
