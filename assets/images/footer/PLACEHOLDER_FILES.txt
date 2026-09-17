@@ -1,0 +1,7 @@
+Upload your own asset files here. This template intentionally does not include Studio Loop's copyrighted images/videos.
+statement.jpg
+footer-01.jpg
+footer-02.jpg
+footer-03.jpg
+footer-04.jpg
+footer-05.jpg

@@ -1,0 +1,11 @@
+Upload your own asset files here. This template intentionally does not include Studio Loop's copyrighted images/videos.
+client-01.jpg
+client-02.jpg
+client-03.jpg
+client-04.jpg
+client-05.jpg
+client-06.jpg
+client-07.jpg
+client-08.jpg
+client-09.jpg
+client-10.jpg

@@ -1,0 +1,6 @@
+Upload your own asset files here. This template intentionally does not include Studio Loop's copyrighted images/videos.
+01-video-social.jpg
+02-design.jpg
+03-3d-motion.jpg
+04-ai-video.jpg
+05-live-events.jpg
