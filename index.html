@@ -1,133 +1,134 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Creative studio portfolio website">
-  <title>LOOP — Creative Studio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Creative portfolio — design, motion, 3D, AI and live events.">
+<title>YOUR STUDIO — Creative Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">LOOP<span>®</span></a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-  </header>
+<div class="loader"><div class="loader-name">YOUR STUDIO<span>®</span></div><div class="loader-bar"><i></i></div></div>
 
-  <main id="home">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">CREATIVE STUDIO / INDONESIA → EVERYWHERE</p>
-        <h1>We make<br><em>ideas move.</em></h1>
-        <p class="hero-text">A multidisciplinary creative studio for visual identities, campaigns, motion, digital experiences and everything in between.</p>
-        <a class="round-link" href="#work">Explore work <span>↘</span></a>
-      </div>
-      <div class="hero-orb" aria-hidden="true"></div>
-    </section>
+<header class="header">
+  <a href="#top" class="logo">YOUR STUDIO<span>®</span></a>
+  <nav class="nav">
+    <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="menu" aria-label="Menu"><span></span><span></span></button>
+</header>
 
-    <section class="ticker" aria-label="Studio statement">
-      <div>DESIGN • MOTION • 3D • VIDEO • DIGITAL • AI • DESIGN • MOTION • 3D • VIDEO • DIGITAL • AI •</div>
-    </section>
+<main id="top">
+<section class="hero">
+  <div class="hero-top"><span>[ YOUR CITY TO EVERYWHERE ]</span><span>2026</span></div>
+  <div class="hero-stage">
+    <div class="hero-title"><span>Creative</span><span class="outline">work</span><span>in</span><span>loop<span class="dot">.</span></span></div>
+    <div class="hero-image media placeholder" data-label="HERO IMAGE / VIDEO">
+      <img src="assets/images/hero.jpg" alt="Hero placeholder" onerror="this.style.display='none'">
+    </div>
+  </div>
+  <div class="hero-bottom"><span>Scroll to explore</span><span class="arrow">↓</span></div>
+</section>
 
-    <section id="work" class="work section">
-      <div class="section-head">
-        <p>(01)</p>
-        <h2>Selected<br><span>Work</span></h2>
-        <p class="section-note">A flexible gallery. Replace the frames below with your own campaign, branding, social media, 3D or UI designs.</p>
-      </div>
+<section id="work" class="work">
+  <div class="intro-label">[ SELECTED WORK ]</div>
+  <div class="work-list">
 
-      <div class="project-grid">
-        <article class="project project-large">
-          <a class="media-frame ratio-wide" href="#">
-            <img src="assets/images/project-01.jpg" alt="Project 01" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-            <span>DROP IMAGE<br><small>project-01.jpg</small></span>
-          </a>
-          <div class="project-meta"><h3>Project One</h3><p>Brand Campaign / 2026</p></div>
-        </article>
+    <article class="work-item" data-index="01">
+      <div class="work-copy"><small>(01)</small><h2>Video <em>&amp;</em><br>Social Content</h2><p>Campaigns, social edits, visual storytelling and platform-native content.</p></div>
+      <div class="work-media media placeholder"><img src="assets/images/services/01-video-social.jpg" alt="Video and Social Content" onerror="this.style.display='none'"></div>
+    </article>
 
-        <article class="project project-small">
-          <a class="media-frame ratio-square" href="#">
-            <img src="assets/images/project-02.jpg" alt="Project 02" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-            <span>DROP IMAGE<br><small>project-02.jpg</small></span>
-          </a>
-          <div class="project-meta"><h3>Project Two</h3><p>Visual Identity</p></div>
-        </article>
+    <article class="work-item reverse" data-index="02">
+      <div class="work-copy"><small>(02)</small><h2>Desi<span>g</span>n</h2><p>Visual identities, art direction, campaigns and communication systems.</p></div>
+      <div class="work-media media placeholder"><img src="assets/images/services/02-design.jpg" alt="Design" onerror="this.style.display='none'"></div>
+    </article>
 
-        <article class="project project-small">
-          <a class="media-frame ratio-portrait" href="#">
-            <img src="assets/images/project-03.jpg" alt="Project 03" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-            <span>DROP IMAGE<br><small>project-03.jpg</small></span>
-          </a>
-          <div class="project-meta"><h3>Project Three</h3><p>Social Content</p></div>
-        </article>
+    <article class="work-item" data-index="03">
+      <div class="work-copy"><small>(03)</small><h2>3D <em>&amp;</em><br>Motion</h2><p>CGI, product visualization, animation and moving brand worlds.</p></div>
+      <div class="work-media media placeholder"><img src="assets/images/services/03-3d-motion.jpg" alt="3D and Motion" onerror="this.style.display='none'"></div>
+    </article>
 
-        <article class="project project-wide">
-          <a class="media-frame ratio-wide" href="#">
-            <img src="assets/images/project-04.jpg" alt="Project 04" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-            <span>DROP IMAGE<br><small>project-04.jpg</small></span>
-          </a>
-          <div class="project-meta"><h3>Project Four</h3><p>Motion & 3D</p></div>
-        </article>
+    <article class="work-item reverse" data-index="04">
+      <div class="work-copy"><small>(04)</small><h2>AI<br>Video</h2><p>Experimental image-making, generative video and creative prototyping.</p></div>
+      <div class="work-media media placeholder"><img src="assets/images/services/04-ai-video.jpg" alt="AI Video" onerror="this.style.display='none'"></div>
+    </article>
 
-        <article class="project project-video">
-          <a class="media-frame ratio-wide video-frame" href="#">
-            <video muted loop playsinline preload="metadata">
-              <source src="assets/videos/showreel.mp4" type="video/mp4">
-            </video>
-            <span>DROP VIDEO<br><small>showreel.mp4</small></span>
-            <b>PLAY ↗</b>
-          </a>
-          <div class="project-meta"><h3>Showreel</h3><p>Video / Motion / 3D</p></div>
-        </article>
-      </div>
-    </section>
+    <article class="work-item" data-index="05">
+      <div class="work-copy"><small>(05)</small><h2>Live<br>Events</h2><p>Stage graphics, event systems, screen content and live visual experiences.</p></div>
+      <div class="work-media media placeholder"><img src="assets/images/services/05-live-events.jpg" alt="Live Events" onerror="this.style.display='none'"></div>
+    </article>
+  </div>
+</section>
 
-    <section id="services" class="services section">
-      <div class="section-head">
-        <p>(02)</p>
-        <h2>What we<br><span>do</span></h2>
-      </div>
-      <div class="service-list">
-        <div><span>01</span><h3>Design</h3><p>Brand systems, campaigns, art direction and visual communication.</p></div>
-        <div><span>02</span><h3>Motion</h3><p>Social content, motion graphics, animation and visual storytelling.</p></div>
-        <div><span>03</span><h3>3D</h3><p>Product visualization, 3D scenes, CGI and experimental imagery.</p></div>
-        <div><span>04</span><h3>Digital</h3><p>Websites, interactive experiences and digital-first creative systems.</p></div>
-      </div>
-    </section>
+<section id="about" class="about">
+  <div class="about-label">[ WHO WE ARE ]</div>
+  <div class="about-grid">
+    <h2>A multi-craft<br>studio with<br><span>one goal.</span></h2>
+    <div class="about-copy">
+      <p>Replace this text with your own portfolio story. The layout is designed for a compact, editorial statement with a strong typographic entrance.</p>
+      <a href="#contact" class="text-link">Meet the studio <b>↗</b></a>
+    </div>
+  </div>
+</section>
 
-    <section id="about" class="manifesto section">
-      <p class="eyebrow">[ WHO WE ARE ]</p>
-      <h2>Creative work<br>with a pulse.</h2>
-      <p class="manifesto-copy">We combine design, technology and culture to build work that feels relevant, memorable and alive. Replace this paragraph with your own studio story.</p>
-    </section>
+<section class="clients">
+  <div class="clients-top"><span>[ FROM YOUR CITY TO EVERYWHERE ]</span><span>2026</span></div>
+  <div class="client-marquee">
+    <div class="client-track">
+      <span>CLIENT A</span><span>CLIENT B</span><span>CLIENT C</span><span>CLIENT D</span><span>CLIENT E</span>
+      <span>CLIENT F</span><span>CLIENT G</span><span>CLIENT H</span><span>CLIENT I</span><span>CLIENT J</span>
+      <span>CLIENT A</span><span>CLIENT B</span><span>CLIENT C</span><span>CLIENT D</span><span>CLIENT E</span>
+      <span>CLIENT F</span><span>CLIENT G</span><span>CLIENT H</span><span>CLIENT I</span><span>CLIENT J</span>
+    </div>
+  </div>
+  <div class="client-images">
+    <img src="assets/images/clients/client-01.jpg" alt="Client 01" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-02.jpg" alt="Client 02" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-03.jpg" alt="Client 03" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-04.jpg" alt="Client 04" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-05.jpg" alt="Client 05" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-06.jpg" alt="Client 06" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-07.jpg" alt="Client 07" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-08.jpg" alt="Client 08" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-09.jpg" alt="Client 09" onerror="this.style.display='none'">
+    <img src="assets/images/clients/client-10.jpg" alt="Client 10" onerror="this.style.display='none'">
+  </div>
+</section>
 
-    <section class="client-strip">
-      <p>SELECTED CLIENTS / COLLABORATORS</p>
-      <div class="client-row">
-        <span>BRAND A</span><span>BRAND B</span><span>BRAND C</span><span>BRAND D</span><span>BRAND E</span>
-      </div>
-    </section>
+<section class="statement">
+  <div class="statement-image media placeholder"><img src="assets/images/footer/statement.jpg" alt="Statement placeholder" onerror="this.style.display='none'"></div>
+  <div class="statement-copy"><span>Let's make</span><span>something</span><span class="outline">worth</span><a href="#contact">Your next project starts looping here <b>↗</b></a></div>
+</section>
 
-    <section id="contact" class="contact section">
-      <p class="eyebrow">[ LET'S MAKE SOMETHING ]</p>
-      <h2>Have a project?<br><em>Let's talk.</em></h2>
-      <a class="email" href="mailto:hello@yourstudio.com">hello@yourstudio.com ↗</a>
-      <div class="contact-bottom">
-        <p>Jakarta / Madiun / Everywhere</p>
-        <p>Instagram · Behance · LinkedIn</p>
-      </div>
-    </section>
-  </main>
+<section id="contact" class="contact">
+  <div class="contact-left"><span>[ CONTACT ]</span><h2>Let's<br><em>talk.</em></h2></div>
+  <div class="contact-right">
+    <p>Use this area for your email, WhatsApp, social profiles and availability.</p>
+    <a class="email" href="mailto:hello@yourstudio.com">hello@yourstudio.com ↗</a>
+    <div class="socials"><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a></div>
+  </div>
+</section>
 
-  <footer>
-    <span>LOOP®</span><span>© 2026</span><span>stories / systems / internet</span>
-  </footer>
+<section class="newsletter">
+  <div><span>Get the best of your studio</span><br>delivered to your inbox.</div>
+  <form onsubmit="return false"><input type="email" placeholder="Your email"><button>Join the loop ↗</button></form>
+</section>
+</main>
 
-  <script src="script.js"></script>
+<footer>
+  <div class="footer-images">
+    <div class="footer-media media placeholder"><img src="assets/images/footer/footer-01.jpg" alt="" onerror="this.style.display='none'"></div>
+    <div class="footer-media media placeholder"><img src="assets/images/footer/footer-02.jpg" alt="" onerror="this.style.display='none'"></div>
+    <div class="footer-media media placeholder"><img src="assets/images/footer/footer-03.jpg" alt="" onerror="this.style.display='none'"></div>
+    <div class="footer-media media placeholder"><img src="assets/images/footer/footer-04.jpg" alt="" onerror="this.style.display='none'"></div>
+    <div class="footer-media media placeholder"><img src="assets/images/footer/footer-05.jpg" alt="" onerror="this.style.display='none'"></div>
+  </div>
+  <div class="footer-bottom"><strong>YOUR STUDIO</strong><span>stories. systems. internet.</span><span>© 2026</span></div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
